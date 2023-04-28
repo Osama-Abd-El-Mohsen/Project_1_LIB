@@ -1,8 +1,14 @@
 # Stepper_library_project_1
-you can it to arduino IDE
+
+## Content
+[1- Installation](https://github.com/Osama-Abd-El-Mohsen/Stepper_library_project_1#installation)
+
+[2- Preview](https://github.com/Osama-Abd-El-Mohsen/Stepper_library_project_1#Preview)
+
+[3- Features](https://github.com/Osama-Abd-El-Mohsen/Stepper_library_project_1#Features)
+
 
 ## Installation
-
 
 | Steps       | Explanation                                                                   |
 |:------------|:------------------------------------------------------------------------------|
@@ -19,6 +25,7 @@ you can it to arduino IDE
 
 ## Features
 
+- [x] you can it to arduino IDE
 - [x] controls up to two motors at the same time
 - [x] can set the microsteps for any motor
 - [x] controls the speed of the motor
