@@ -9,8 +9,8 @@
 /*************************************************************/
 /*************************************************************/
 
-#ifndef FL2S_INTERFACE_H_
-#define FL2S_INTERFACE_H_
+#ifndef STEPPER_interface_h
+#define STEPPER_interface_h
 
 #define MODE_FULLSTEP    1
 #define MODE_HALFSTEP    2

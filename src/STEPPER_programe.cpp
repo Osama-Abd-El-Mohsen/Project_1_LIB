@@ -1,6 +1,6 @@
 #include "Arduino.h"
-#include "FL2S_interface.h"
-#include "FL2S_private.h"
+#include "STEPPER_interface.h"
+#include "STEPPER_private.h"
 
 void STEPPER_INIT_THREEMOTOR(int STEPS_PER_REV, int STEP_PIN1, int DIRECTION_PIN1, int STEP_PIN2, int DIRECTION_PIN2, int STEP_PIN3, int DIRECTION_PIN3)
 {
@@ -226,7 +226,10 @@ void STEPPER_STEP_ONEMOTOR_MS(int MOTOR, int STEP)
   case MOTOR_TWO:
     STEP = (STEP * GLOBALMICROSTEPTWO);
     break;
-
+  case MOTOR_THREE:
+    STEP = (STEP * GLOBALMICROSTEPTHREE);
+    break;
+    
   default:
     break;
   }
