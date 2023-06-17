@@ -12,12 +12,15 @@
 #ifndef SENSORS_interface_h
 #define SENSORS_interface_h
 
-//LDR
+/*LDR Function*/
+/*Getting Four readings for four ldrs bu passing variable address */
 void SENSORS_LDR_GetRead(int *LDRUP , int *LDRDOWN ,int *LDRRIGHT ,int *LDRLEFT );
 
-//AMPERE Acs712
+/*ACS712 Function*/
+/*Returning ACS712 current sensor reading */
 int SENSORS_ACS712_GetRead();
 
-//DHT11
+/*DHT11 Function*/
+/*Getting DHT11 HUNIDITY & TEMPERATURE  */
 void SENSORS_DHT11_GetRead(float *HUNIDITY, float *TEMP);
 #endif
