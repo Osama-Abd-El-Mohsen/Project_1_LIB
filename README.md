@@ -25,7 +25,7 @@
 
 ## Features
 
-- [x] you can it to arduino IDE
+- [x] you can add it to arduino IDE
 - [x] controls up to two motors at the same time
 - [x] can set the microsteps for any motor
 - [x] controls the speed of the motor
